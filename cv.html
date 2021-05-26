@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="cv.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>>CV</title>
+</head>
+<body>
+  <div id="drag" class="cv instaFade wrap">
+    <div class="mainDetails">
+      <div id="name">
+        <h1 class="quickFade delayTwo">Ryad Bailleul</h1>
+      </div>
+
+      <div id="contactDetails" class="quickFade delayFour">
+        <p>Ryadus2001@gmail.com</p>
+      </div>
+     <div class="clear"></div>
+    </div>
+
+    <div id="mainArea" class="quickFade delayFive">
+      
+      <section>
+        <article>
+          <div class="sectionTitle">
+            <h1>Mes compétences</h1>
+          </div>
+
+          <div class="sectionContent">
+           <p>Maîtrise de la partie
+            back-end (PHP) et
+            Mysql pour les bases
+            de données,
+            Maîtrise du framework
+            Symfony et l'ORM
+            (doctrine),
+            Maîtrise de logiciel
+            graphique et vectoriel
+            (AI, PSD).</p>
+          </div>
+        </article>
+        <div class="clear"></div>
+      </section>
+
+
+      <section>
+        <div class="sectionTitle">
+          <h1>Expérience Professionel</h1>
+        </div>
+
+        <div class="sectionContent">
+          <article>
+            <h3>Apprentissage en
+              signalétique
+              enseigne et décor</h3>
+            <h4 class="subDetails">En Aparté - Armentières
+              sept. 2017 / août 2018</h4>
+            <p>Ma fonction principal au sein de
+              cette entreprise était de m'occuper de
+              : Mise en page - Retouches d'images
+              - Créations de logo - Réalisations de
+              maquettes.</p>
+          </article>
+
+          <article>
+            <h3>Développeur web</h3>
+            <h4 class="subDetails">Wild code school - Lille
+              sept. 2019 / mars 2020</h4>
+            <p>La formation m'a permis la créations
+              de pages de destination, de tableaux
+              de bord et d'application web à l'aide
+              du framework Symfony, et des
+              langages de programmation : Html ,
+              Css , PHP , Javascript. Aussi des
+              refontes de sites pour améliorer la
+              navigation et l'attrait visuel tout en
+              gérant des bases de données SQL.</p>
+          </article>
+
+           <article>
+             <h3>Préparateur de
+              commande</h3>
+            <h4 class="subDetails">Picwictoys-Houplines
+              nov. 2020 / janv. 2021</h4>
+            <p>Mon rôle au sein de cette entreprise
+              était : La préparation des produits
+              destinés à être livrés aux clients, en
+              les transportant à l'aide de mon
+              permis caces 1.</p>
+          </article>
+
+        </div>
+        <div class="clear"></div>
+      </section>
+
+
+      <section>
+        <div class="sectionTitle">
+          <h1>Centre d'intérêts</h1>
+        </div>
+
+        <div class="sectionContent">
+          <ul class="keySkills">
+            <li>Chanter</li>
+            <li>Dessiner</li>
+            <li>Écrire</li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </section>
+
+
+      <section id="Education">
+        <div class="sectionTitle">
+          <h1>Formation</h1>
+        </div>
+
+        <div class="sectionContent">
+          <article>
+            <h2>Brevet des collèges</h2>
+            <h4 class="subDetails">Collège Jean-Rostand
+              Armentières
+              06/2019</h4>
+          </article>
+
+          <article>
+            <br>
+            <h2>CAP Signalétique
+              Enseigne et Décor</h2>
+            <h4 class="subDetails">Centre de Formation Don
+              Bosco
+              Bailleul
+              08/2018 </h4>
+          </article>
+
+          <article>
+            <br>
+            <h2>Bac +2 Développeur
+              Web et Web mobile</h2>
+            <h4 class="subDetails">Wild code school
+              Lille
+              09/2020</h4>
+              <br>
+          </article>
+        
+
+        </div>
+        <div class="clear"></div>
+      </section>
+  </body>
+
+   <footer>
+      <section>
+        <article>
+          <div class="sectionTitle">
+            <h1>Contact</h1>
+          </div>
+          <div class="sectionContent">
+            <form id="form" action="/" method="POST">
+              <div class="form-group">
+                <label class="font-weight-bold" for="emailInput">E-mail <span class="text-danger font-weight-bold">*</span></label>
+            <input type="text" class="form-control shadow-sm" id="emailInput">
+            <div id="emailErr" class="text-danger">
+            </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">écrivez votre message:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div class="col form-group text-center">
+                <button type="submit" id="envoyer" class="button btn btn-primary w-25 h-25">Envoyer</button>
+              </div>
+            </form>
+          </div>    
+        </article>
+        <div class="clear"></div>
+      </section>
+    </div>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="cv.js"></script>
